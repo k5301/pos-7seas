@@ -1,0 +1,73 @@
+﻿.bgimg{
+    background:url(../../../images/custom/bg-loginBody.jpg);background-size:cover;
+}
+.card {
+    box-shadow: 0 2px 6px 0 rgba(50,50,50,0.6), 0 2px 6px 0 rgba(75,7,0,0.5);
+}
+
+.text-white {
+    color: #ff6500!important;
+}
+.col-sm-2,col-sm-4{
+    padding-right:0
+            
+}
+
+        
+/*.form-control:focus{color:#495057;background-color:#fff;border-color:#ff6500;outline:0;box-shadow:0 0 5px .1rem rgba(255,101,0,.1)}*/
+.form-control:focus{
+    color:#495057;background-color:#fff;border-color:#008cff;outline:0;box-shadow:0 0 5px .1rem rgba(0, 140, 255,.1)
+}
+
+.styleScrollbar::-webkit-scrollbar{
+            
+    width:2.4px;
+    height:2.4px;
+}
+.styleScrollbar::-webkit-scrollbar-track{
+            
+    background:#eee;
+}
+.styleScrollbar::-webkit-scrollbar-thumb{
+    background:#ff6500;
+    border-radius:5px;
+}
+.styleScrollbar::-webkit-scrollbar-corner{
+    background:#eee;
+}
+        
+.heightResponsive{
+    height:66vh;overflow-y:scroll;overflow-x:hidden;box-sizing:border-box
+}
+.form-control-position-right{
+    position: absolute;
+    top: -8px;
+    right: 0;
+    left:auto;
+    z-index: 2;
+    display: block;
+    width: 3.5rem;
+    height: 3.5rem;
+    line-height: 3.5rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.form-control-position-right i.hide-btn::before{
+  content: "\f070";
+}      
+
+label.error.have-alert{
+    color:blue;
+}
+.errorhighlight{
+    border: 1px solid red !important;
+}
+
+@media(max-width:600px){
+    .heightResponsive{
+        height:auto;overflow-y:unset;overflow-x:hidden;box-sizing:border-box;
+    }
+}
+
